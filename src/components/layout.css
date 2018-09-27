@@ -624,3 +624,11 @@ pre tt:after {
 }
 
 /*END DEFAULT STYLING*/
+#Nav{
+  position: fixed;
+  width: 100%;
+  z-index:1;
+}
+#projectCard{
+  width:30%;
+}

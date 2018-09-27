@@ -1,18 +1,61 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardLink,
+ CardSubtitle, CardBody } from 'reactstrap';
 import Layout from '../components/layout'
-
+import ProjectCard from '../components/projectCards'
 
 export default () => (
   <Layout>
+    <h1>Here are a few of my finished projects and certifications I hold</h1>
+    <h2>Projects</h2>
+    <CardGroup>
+      <Card>
+        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Facial Image Recgonition</CardTitle>
+          <CardText>
+            <ul>
+              <li>Clarifai API Integration</li>
+              <li>NodeJS Server Hosted on Heroku</li>
+              <li>Express API</li>
+              <li>PostgreSQL Hosted on Heroku</li>
+              <li>React frontend with state management</li>
+              <li>Full user Authentication and registration</li>
+            </ul>
+          </CardText>
+          <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project URL</CardLink>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>CrossCurrentFellowship Hawaii</CardTitle>
+          <CardText>
+            <ul>
+              <li>Single Page App</li>
+              <li>JAMstack</li>
+              <li>Bootstrap 4</li>
+              <li>Hosted on Netlify</li>
+              <li>Built with Widgets and Apis</li>
+            </ul>
+          </CardText>
+          <CardLink href="https://www.crosscurrenthi.org/">Website</CardLink>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <CardLink href="https://github.com/Dmeowmixer/simpleReact/tree/master/src/">Github Project</CardLink>
+        </CardBody>
+      </Card>
+    </CardGroup>
     <div>
-      <h1>Here are a few of my finished projects and certifications I hold</h1>
-      <h2>Projects</h2>
       <ul>
-        <li><h3>Listed Below are just a few projects, feel free to browse my<a href="https://github.com/Dmeowmixer"> GitHub </a>for a complete list of public repositories I can share.</h3></li>
-        <li><a href='https://dmeowsmartbrain.herokuapp.com/'>React Frontend/ NodeJS & Express + PostgreSQL DB. Full SPA with Login, API, DB integration</a></li>
-        <li><a href='https://www.crosscurrenthi.org/'>SPA JAMstack with Materialize Bootstrap and API calls.</a></li>
+        <li><h3>Listed Below are a few more projects, feel free to browse my<a href="https://github.com/Dmeowmixer"> GitHub </a>for a complete list of public repositories I can share.</h3></li>
         <li><a href='https://github.com/Dmeowmixer/simpleReact/tree/master/src/'>React/Redux with Tachyons styling.</a></li>
         <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS HPD iFrame Web Scraper Component For Traffic Accident App</a></li>
         <li><a href="https://codepen.io/dmeowmixer/pen/BPXjVj">Simple HTML/CSS Questionaire form</a></li>
@@ -32,9 +75,7 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <h3>Check Out My Resume!</h3>
-      <iframe src="https://docs.google.com/document/d/e/2PACX-1vTqv_Xr88rQAYxNHiGOtEXGhd-NoLEaKL726POLW3zDEW4OahLW1yV6AiTcSIAqKV74IlvIfPLd4Gb-/pub?embedded=true"></iframe>
-      <Link to="/">Home</Link>
+      <a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a>
     </div>
   </Layout>
 )

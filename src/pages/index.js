@@ -8,9 +8,9 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <h1>Hello!</h1>
-    <p>Welcome to my personal portfolio.</p>
+    <p>Welcome to my personal portfolio. This page is still currently under construction!</p>
     <p>Here you will find some information about me and a few of the projects I am working on.</p>
-    <p>This site was created as an SPA, using Gatsby JS, React and Reactstrap (Bootstrap 4)</p>
+    <p>This site was created using Gatsby JS, React and Reactstrap (Bootstrap 4)</p>
   </Layout>
 )
 

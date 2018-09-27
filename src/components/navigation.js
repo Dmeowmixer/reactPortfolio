@@ -31,19 +31,18 @@ export default class Example extends React.Component {
     return (
       <div id="Nav">
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Yokosou I'm Ranson</NavbarBrand>
+          <NavbarBrand href="/">Yokosou, I'm Ranson</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-
-                <NavLink href="/majin/">My Cat Majin!</NavLink>
+                <NavLink href="/about/">About Me</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/projects/">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about/">About Me</NavLink>
+                <NavLink href="/majin/">My Cat Majin!</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/contact/">Contact</NavLink>

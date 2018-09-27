@@ -46,10 +46,14 @@ export default () => (
       <Card>
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-          <CardLink href="https://github.com/Dmeowmixer/simpleReact/tree/master/src/">Github Project</CardLink>
+          <CardTitle>React/Redux Async API call App</CardTitle>
+          <CardText><ul>
+            <li>React/Redux</li>
+            <li>Fetch API</li>
+            <li>Asynchrounous GET Requests</li>
+            <li>Real Time Query Responses</li>
+          </ul></CardText>
+          <CardLink href="https://github.com/Dmeowmixer/simpleReact/tree/master/src/">Project Site on GH Pages</CardLink>
         </CardBody>
       </Card>
     </CardGroup>

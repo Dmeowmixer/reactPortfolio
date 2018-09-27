@@ -7,7 +7,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <Layout>
-        <Form>
+        <Form nameClass="contact" method="POST" netlify>
           <FormGroup>
             <Label for="email">Email</Label>
             <Input type="email" name="email" id="email" placeholder="Enter Your Email" />
@@ -20,6 +20,7 @@ export default class Example extends React.Component {
             <Label for="text">Message</Label>
             <Input type="textarea" name="message" id="message" />
           </FormGroup>
+          <button type="submit">Submit</button>
         </Form>
       </Layout>
     );

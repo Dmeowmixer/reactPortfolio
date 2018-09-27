@@ -9,7 +9,7 @@ const IndexPage = () => (
     <p>Welcome to my personal portfolio.</p>
     <p>Here you will find some information about me and a few of the projects I am working on.</p>
     <p>This site was created as a SPA, using Gatsby JS, React and TypographyJS along with HTML/CSS</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/majin/">Meet my cat</Link>
     <Link to="/about/">About Me</Link>
     <Link to="/projects/">Projects</Link>
   </Layout>

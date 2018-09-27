@@ -1,11 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Ransons Personal Portfolio!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',

@@ -17,7 +17,7 @@ export default () => (
       <p>In my spare time I am an avid martial artist and hold ranks in several different styles including Wing Chun, Brazillian Jujitsu, Danzan Ryu Jujitsu, Jeet Kune Do, and Muay Thai to name a few.
       I also enjoy working on cars and am currently restoring a 1987 Chevrolet Monte Carlo SS. On the programming side of things, I have been learning indie game development in GameMakerStudio2 using GameMakerLanguage which is a Javascriptesque language.
       Finally I enjoy tinkering with Raspberry Pis and have worked on WPA/WPA2 WiFi cracking using aircrack-ng and packet sniffing with ncap for fun.</p>
-      <Link to="///">Home</Link>
+      <Link to="/">Home</Link>
     </div>
   </Layout>
 )

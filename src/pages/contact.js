@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout'
 
 export default class Example extends React.Component {

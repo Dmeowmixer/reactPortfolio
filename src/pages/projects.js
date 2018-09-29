@@ -80,7 +80,7 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a>
+      <h2><a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a></h2>
     </div>
   </Layout>
 )

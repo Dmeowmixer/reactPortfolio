@@ -24,6 +24,7 @@ export default class Example extends React.Component {
           </FormGroup>
           <button type="submit">Submit</button>
         </Form>
+        <h2><a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a></h2>
       </Layout>
     );
   }

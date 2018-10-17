@@ -14,7 +14,7 @@ export default () => (
       <h2 className="justifyCenter">I am a fullstack Javascript developer from Honolulu, Hawaii</h2>
       <p>I am primarily looking for remote work however, I am open to any and all opportunities. I started developing about 5 years ago since I have always been attracted towards technology and constantly learning.
       Learning to program has been one of the most challenging things of my life, and has taught me many valuable lessons such as overcoming failure. I have always been able to pick things up with relative ease and overcoming the constant feelings of failure programmers feel has helped me grow as an individual.
-      I have worked within the tech field for the past 5 years in varying roles from Independant contractor, freelancer, and a CTO role of a startup (which ended terribly and is a story in itself for another time). 
+      I have worked within the tech field for the past 5 years in varying roles from Independant contractor, freelancer, and a CTO role of a startup. 
       I had some time to re-examine my goals and have chosen to start working on my development skills once more.</p>
       <h2 className="justifyCenter">Hobbies</h2>
       <p>In my spare time I am an avid martial artist and hold ranks in several different styles including Wing Chun, Brazillian Jujitsu, Danzan Ryu Jujitsu, Jeet Kune Do, and Muay Thai to name a few.

@@ -8,8 +8,7 @@ import ProjectCard from '../components/projectCards';
 
 export default () => (
   <Layout>
-    <h1 className="justifyCenter">Here are a few of my finished projects and certifications I hold</h1>
-    <h2 className="justifyCenter">Projects</h2>
+    <h1 className="justifyCenter">Projects</h1>
     <CardGroup>
       <Card className="projectCard">
         <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>

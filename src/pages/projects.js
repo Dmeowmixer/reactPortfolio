@@ -8,10 +8,10 @@ import ProjectCard from '../components/projectCards'
 
 export default () => (
   <Layout>
-    <h1>Here are a few of my finished projects and certifications I hold</h1>
-    <h2>Projects</h2>
+    <h1 className="justifyCenter">Here are a few of my finished projects and certifications I hold</h1>
+    <h2 className="justifyCenter">Projects</h2>
     <CardGroup>
-      <Card>
+      <Card className="projectCard">
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
         <CardBody>
           <CardTitle>Facial Image Recgonition</CardTitle>
@@ -28,7 +28,7 @@ export default () => (
           <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project URL</CardLink>
         </CardBody>
       </Card>
-      <Card>
+      <Card className="projectCard">
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
         <CardBody>
           <CardTitle>CrossCurrentFellowship Hawaii</CardTitle>
@@ -36,7 +36,7 @@ export default () => (
             <ul>
               <li>Single Page App</li>
               <li>JAMstack</li>
-              <li>Bootstrap 4</li>
+              <li>MD Bootstrap 4</li>
               <li>Hosted on Netlify</li>
               <li>Built with Widgets and Apis</li>
             </ul>
@@ -44,7 +44,7 @@ export default () => (
           <CardLink href="https://www.crosscurrenthi.org/">Website</CardLink>
         </CardBody>
       </Card>
-      <Card>
+      <Card className="projectCard">
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
         <CardBody>
           <CardTitle>React/Redux Async API call App</CardTitle>
@@ -65,14 +65,15 @@ export default () => (
         <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS HPD iFrame Web Scraper Component For Traffic Accident App</a></li>
         <li><a href="https://codepen.io/dmeowmixer/pen/BPXjVj">Simple HTML/CSS Questionaire form</a></li>
       </ul>
-      <h2>Certifications</h2>
+      <h2 className="justifyCenter">Certifications</h2>
       <ul>
         <li><a href="https://www.freecodecamp.org/certification/ransonikuo/responsive-web-design">FreeCodeCamp Responsive Web Design</a></li>
         <li><a href="https://www.freecodecamp.org/certification/ransonikuo/javascript-algorithms-and-data-structures">FreeCodeCamp Javascript Algorithms and Data Structures</a></li>
+        <li><a href="https://www.udemy.com/understand-javascript/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email">Javascript The Weird Parts Completion Udemy</a></li>
         <li><a href="https://www.udemy.com/certificate/UC-93UTQ7WQ/">Complete Web Developer 2018 Completion Udemy</a></li>
-        <li>DevLeague Certificate of completion 2015</li>
+        <li>DevLeague Developer Fullstack Javascript Bootcamp Certificate of completion 2015</li>
       </ul>
-      <h3>Ongoing projects</h3>
+      <h3 className="justifyCenter">Ongoing projects</h3>
       <ul>
         <li><p>Social Media site built in Angular with FirestoreDB full oAuth integration. Hosted on Firebase</p></li>
         <li><p>Indie GameMaker Language (Javascriptesque) multiplayer game</p></li>
@@ -80,7 +81,7 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <h2><a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a></h2>
+      <h2 className="justifyCenter"><a href="https://docs.google.com/document/d/e/2PACX-1vTqv_Xr88rQAYxNHiGOtEXGhd-NoLEaKL726POLW3zDEW4OahLW1yV6AiTcSIAqKV74IlvIfPLd4Gb-/pub" target="_blank">My Resume</a></h2>
     </div>
   </Layout>
 )

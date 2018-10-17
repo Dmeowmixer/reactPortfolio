@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
         <Navbar />
           <html lang="en" />
         <Header />
-        <div
+        <div id="mainDiv" 
           style={{
             margin: '0 auto',
             maxWidth: 960,

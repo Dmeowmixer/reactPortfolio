@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 import {
   Collapse,
   Navbar,
@@ -39,7 +39,7 @@ export default class Example extends React.Component {
                 <NavLink href="/about/">About Me</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/projects/">Projects&Certifications</NavLink>
+                <NavLink href="/projects/">Projects and Certifications</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/majin/">My Cat Majin!</NavLink>

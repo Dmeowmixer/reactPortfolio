@@ -24,7 +24,7 @@ export default class Example extends React.Component {
           </FormGroup>
           <button type="submit">Submit</button>
         </Form>
-        <h2><a href="../../public/icons/Ranson Namba Resume 2018.pdf" download>My Resume</a></h2>
+        <h2 className="justifyCenter"><a href="https://docs.google.com/document/d/e/2PACX-1vTqv_Xr88rQAYxNHiGOtEXGhd-NoLEaKL726POLW3zDEW4OahLW1yV6AiTcSIAqKV74IlvIfPLd4Gb-/pub" target="_blank">My Resume</a></h2>
       </Layout>
     );
   }

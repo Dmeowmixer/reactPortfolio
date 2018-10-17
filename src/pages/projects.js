@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardLink,
  CardSubtitle, CardBody } from 'reactstrap';
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProjectCard from '../components/projectCards'
+import ProjectCard from '../components/projectCards';
 
 export default () => (
   <Layout>
@@ -12,7 +12,7 @@ export default () => (
     <h2 className="justifyCenter">Projects</h2>
     <CardGroup>
       <Card className="projectCard">
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src="../images/facialRecognition.png" alt="facialRecognition" />
         <CardBody>
           <CardTitle>Facial Image Recgonition</CardTitle>
           <CardText>
@@ -25,11 +25,11 @@ export default () => (
               <li>Full user Authentication and registration</li>
             </ul>
           </CardText>
-          <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project URL</CardLink>
+          <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project Hosted on Heroku</CardLink>
         </CardBody>
       </Card>
       <Card className="projectCard">
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src="../images/crossCurrent.png" alt="CrossCurrentFellowship" />
         <CardBody>
           <CardTitle>CrossCurrentFellowship Hawaii</CardTitle>
           <CardText>
@@ -45,7 +45,7 @@ export default () => (
         </CardBody>
       </Card>
       <Card className="projectCard">
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src="../images/simpleReact.png" alt="reactApp" />
         <CardBody>
           <CardTitle>React/Redux Async API call App</CardTitle>
           <CardText><ul>
@@ -81,7 +81,7 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <h2 className="justifyCenter"><a href="https://docs.google.com/document/d/e/2PACX-1vTqv_Xr88rQAYxNHiGOtEXGhd-NoLEaKL726POLW3zDEW4OahLW1yV6AiTcSIAqKV74IlvIfPLd4Gb-/pub" target="_blank">My Resume</a></h2>
+      <h2 className="justifyCenter"><a href="https://docs.google.com/document/d/e/2PACX-1vQrLQQk7uu1OGoHf4D2u8ez5xYzS62c9oAHxZHBBxJxvIFnpsLLOi37vYRdPQeUBmjJ1Wj2oGmCQPk3/pub" target="_blank">My Resume</a></h2>
     </div>
   </Layout>
 )

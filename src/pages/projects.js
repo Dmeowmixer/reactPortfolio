@@ -12,7 +12,7 @@ export default () => (
     <h2 className="justifyCenter">Projects</h2>
     <CardGroup>
       <Card className="projectCard">
-        <CardImg top width="100%" src="../images/facialRecognition.png" alt="facialRecognition" />
+        <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
         <CardBody>
           <CardTitle>Facial Image Recgonition</CardTitle>
           <CardText>
@@ -29,7 +29,7 @@ export default () => (
         </CardBody>
       </Card>
       <Card className="projectCard">
-        <CardImg top width="100%" src="../images/crossCurrent.png" alt="CrossCurrentFellowship" />
+        <a href="https://www.crosscurrenthi.org/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/crossCurrent-min.png" alt="CrossCurrentFellowship" /></a>
         <CardBody>
           <CardTitle>CrossCurrentFellowship Hawaii</CardTitle>
           <CardText>
@@ -45,7 +45,7 @@ export default () => (
         </CardBody>
       </Card>
       <Card className="projectCard">
-        <CardImg top width="100%" src="../images/simpleReact.png" alt="reactApp" />
+        <a href="https://dmeowmixer.github.io/simpleReact/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/simpleReact-min.png" alt="reactApp" /></a>
         <CardBody>
           <CardTitle>React/Redux Async API call App</CardTitle>
           <CardText><ul>
@@ -54,7 +54,7 @@ export default () => (
             <li>Asynchrounous GET Requests</li>
             <li>Real Time Query Responses</li>
           </ul></CardText>
-          <CardLink href="https://github.com/Dmeowmixer/simpleReact/tree/master/src/">Project Site on GH Pages</CardLink>
+          <CardLink href="https://dmeowmixer.github.io/simpleReact//">Project Site on GH Pages</CardLink>
         </CardBody>
       </Card>
     </CardGroup>

@@ -60,7 +60,7 @@ export default () => (
     <div>
       <ul>
         <li><h3>Listed Below are a few more projects, feel free to browse my<a href="https://github.com/Dmeowmixer"> GitHub </a>for a complete list of public repositories I can share.</h3></li>
-        <li><a href='https://github.com/Dmeowmixer/simpleReact/tree/master/src/'>React/Redux with Tachyons styling.</a></li>
+        <li><a href="www.ransonikuo.com">Personal Portfolio Site : Built with GatsbyJS, React and Reactstrap</a></li>
         <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS HPD iFrame Web Scraper Component For Traffic Accident App</a></li>
         <li><a href="https://codepen.io/dmeowmixer/pen/BPXjVj">Simple HTML/CSS Questionaire form</a></li>
       </ul>

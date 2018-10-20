@@ -1,18 +1,19 @@
-import React from 'react';
-import PDF from 'react-pdf-js';
+import React, { Component } from 'react';
+import { Document, Page } from 'react-pdf';
  
-export default class ResumePDF extends React.Component {
-  state = {}; 
+export default class ResumePDF extends Component {
+ 
+ 
   render() {
+ 
     return (
       <div>
-        <PDF
-          file="../images/RansonNambaResume.PDF"
-          onDocumentComplete={this.onDocumentComplete}
-          page={this.state.page}
-        />
+        <Document
+          file="../images/RansonNambaResume.pdf"
+          onLoadSuccess={this.onDocumentLoad}
+        >
+        </Document>
       </div>
-    )
+    );
   }
 }
- 

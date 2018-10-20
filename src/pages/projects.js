@@ -5,6 +5,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardLink,
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCard from '../components/projectCards';
+import ResumePDF from '../components/resumeComponent';
 
 export default () => (
   <Layout>
@@ -60,7 +61,7 @@ export default () => (
     <div>
       <ul>
         <li><h3>Listed Below are a few more projects, feel free to browse my<a href="https://github.com/Dmeowmixer"> GitHub </a>for a complete list of public repositories I can share.</h3></li>
-        <li><a href="www.ransonikuo.com">Personal Portfolio Site : Built with GatsbyJS, React and Reactstrap</a></li>
+        <li>Personal Portfolio Site : Built with GatsbyJS, React and Reactstrap</li>
         <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS HPD iFrame Web Scraper Component For Traffic Accident App</a></li>
         <li><a href="https://codepen.io/dmeowmixer/pen/BPXjVj">Simple HTML/CSS Questionaire form</a></li>
       </ul>
@@ -80,7 +81,8 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <h2 className="justifyCenter"><a href="https://docs.google.com/document/d/e/2PACX-1vQrLQQk7uu1OGoHf4D2u8ez5xYzS62c9oAHxZHBBxJxvIFnpsLLOi37vYRdPQeUBmjJ1Wj2oGmCQPk3/pub" target="_blank">My Resume</a></h2>
+      <ResumePDF />
+      <h2 className="justifyCenter"><a href="../images/RansonNambaResume.pdf" target="_blank">My Resume</a></h2>
     </div>
   </Layout>
 )

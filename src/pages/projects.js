@@ -5,7 +5,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardLink,
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCard from '../components/projectCards';
-import ResumePDF from '../components/resumeComponent';
+import pdf from '../images/resume.pdf';
 
 export default () => (
   <Layout>
@@ -54,7 +54,7 @@ export default () => (
             <li>Asynchrounous GET Requests</li>
             <li>Real Time Query Responses</li>
           </ul></CardText>
-          <CardLink href="https://dmeowmixer.github.io/simpleReact//">Project Site on GH Pages</CardLink>
+          <CardLink href="https://dmeowmixer.github.io/simpleReact/">Project Site on GH Pages</CardLink>
         </CardBody>
       </Card>
     </CardGroup>
@@ -81,8 +81,7 @@ export default () => (
         <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
         <li><p>NCAP WiFi Packet Sniffing</p></li>
       </ul>
-      <ResumePDF />
-      <h2 className="justifyCenter"><a href="../images/RansonNambaResume.pdf" target="_blank">My Resume</a></h2>
+      <h2 className="justifyCenter"><a href={pdf} target="_blank">My Resume</a></h2>
     </div>
   </Layout>
 )

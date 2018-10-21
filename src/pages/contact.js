@@ -1,5 +1,5 @@
 import React from 'react'
-
+import pdf from '../images/resume.pdf';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,7 @@ export default class Example extends React.Component {
           </FormGroup>
           <button type="submit">Submit</button>
         </Form>
-        <h2 className="justifyCenter"><a href="../../images/RansonNambaResume.PDF" target="_blank">My Resume</a></h2>
+        <h2 className="justifyCenter"><a href={pdf} target="_blank">My Resume</a></h2>
       </Layout>
     );
   }

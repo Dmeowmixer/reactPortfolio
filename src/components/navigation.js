@@ -39,9 +39,6 @@ export default class Example extends React.Component {
                 <NavLink href="/projects/">Projects and Certifications</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/majin/">My Cat Majin!</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="/contact/">Contact</NavLink>
               </NavItem>
             </Nav>
@@ -51,3 +48,6 @@ export default class Example extends React.Component {
     );
   }
 }
+              // <NavItem>
+              //   <NavLink href="/majin/">My Cat Majin!</NavLink>
+              // </NavItem>

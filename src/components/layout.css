@@ -668,5 +668,6 @@ h1{
 }
 
 .devIcons {
-  max-width: 6em;
+  max-width: 8em;
+  padding: 0.15em;
 }

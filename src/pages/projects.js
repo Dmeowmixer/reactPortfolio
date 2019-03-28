@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardLink,
- CardSubtitle, CardBody } from 'reactstrap';
+// import { Link } from 'gatsby';
+import { Card, CardImg, CardTitle, CardText, CardGroup, CardLink, CardBody } from 'reactstrap';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProjectCard from '../components/projectCards';
+// import ProjectCard from '../components/projectCards';
 import pdf from '../images/resume.pdf';
 
 export default () => (

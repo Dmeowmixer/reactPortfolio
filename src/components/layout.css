@@ -666,3 +666,7 @@ h1{
 .progressBar{
   margin-top: 1.5% !important;
 }
+
+.devIcons {
+  max-width: 6em;
+}

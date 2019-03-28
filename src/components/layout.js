@@ -21,13 +21,14 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet>
+
         </Helmet>
         <Navbar />
         <Header />
         <div id="mainDiv" 
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: '73%',
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}

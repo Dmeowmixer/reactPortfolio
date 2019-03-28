@@ -636,11 +636,6 @@ h1{
   justify-content: center;
 }
 
-#projectCard{
-  width:30%;
-}
-
-
 #majinHeader{
   text-align:center;
 }
@@ -668,4 +663,8 @@ h1{
 .devIcons {
   max-width: 8em;
   padding: 0.15em;
+}
+
+#indexP{
+  font-size: 1.8em;
 }

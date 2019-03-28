@@ -7,3 +7,9 @@
 ##Hover effect on devIcons
 ##Projects & portfolio horizontal (sideways)
 ##Section devIcons to remain white while rest of page is black (#17181C)
+##Add WaimeaValley to portfolio examples
+
+
+
+
+##Add ed portfolio after finished

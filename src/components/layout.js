@@ -23,7 +23,6 @@ const Layout = ({ children }) => (
         <Helmet>
         </Helmet>
         <Navbar />
-          <html lang="en" />
         <Header />
         <div id="mainDiv" 
           style={{

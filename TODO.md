@@ -5,3 +5,4 @@
 ##Add more asthetic packages
   * Typed.js intro
 ##Hover effect on devIcons
+##Projects & portfolio horizontal (sideways)

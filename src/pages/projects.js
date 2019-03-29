@@ -14,7 +14,7 @@ export default () => (
        <Row>
           <Col>
             <Card className="projectCard">
-              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553897781/waimeavalleycropped.png" alt="facialRecognition" /> </a>
+              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553897781/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
               <CardBody>
                 <CardTitle>Waimea Valley Website</CardTitle>
                 <CardText>
@@ -24,28 +24,7 @@ export default () => (
                     <li>Managed development/Client interactions/Developed alongside my team</li>
                   </ul>
                 </CardText>
-                <CardLink href="https://waimeavalley.net/">Live</CardLink>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-       <Row>
-          <Col>
-            <Card className="projectCard">
-              <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
-              <CardBody>
-                <CardTitle>Facial Image Recgonition</CardTitle>
-                <CardText>
-                  <ul>
-                    <li>Clarifai API Integration</li>
-                    <li>NodeJS Server Hosted on Heroku</li>
-                    <li>Express API</li>
-                    <li>PostgreSQL Hosted on Heroku</li>
-                    <li>React frontend with state management</li>
-                    <li>Full user Authentication and registration</li>
-                  </ul>
-                </CardText>
-                <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project Hosted on Heroku</CardLink>
+                <CardLink href="https://waimeavalley.net/">Website</CardLink>
               </CardBody>
             </Card>
           </Col>
@@ -72,6 +51,47 @@ export default () => (
           </Col>
         </Row>
 
+       <Row>
+          <Col>
+            <Card className="projectCard">
+              <a href="https://dmeowmixer.github.io/voiceTrainer"> <CardImg  href="https://dmeowmixer.github.io/voiceTrainer" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553898422/voicetrainer.png" alt="voiceTrainerapp" /> </a>
+              <CardBody>
+                <CardTitle>Facial Image Recgonition</CardTitle>
+                <CardText>
+                  <ul>
+                    <li>Built with VanillaJS and D3.js for visualizations</li>
+                    <li>Hosted on Github Pages</li>
+                  </ul>
+                </CardText>
+                <CardLink href="https://dmeowmixer.github.io/voiceTrainer/">Project Hosted on GithubPages</CardLink>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+
+       <Row>
+          <Col>
+            <Card className="projectCard">
+              <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
+              <CardBody>
+                <CardTitle>Facial Image Recgonition</CardTitle>
+                <CardText>
+                  <ul>
+                    <li>Clarifai API Integration</li>
+                    <li>NodeJS Server Hosted on Heroku</li>
+                    <li>Express API</li>
+                    <li>PostgreSQL Hosted on Heroku</li>
+                    <li>React frontend with state management</li>
+                    <li>Full user Authentication and registration</li>
+                  </ul>
+                </CardText>
+                <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project Hosted on Heroku</CardLink>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+
+
         <Row>
           <Col>
             <Card className="projectCard">
@@ -95,7 +115,7 @@ export default () => (
       <ul>
         <li><h3>Listed Below are a few more projects, feel free to browse my<a href="https://github.com/Dmeowmixer"> GitHub </a>for a complete list of public repositories I can share.</h3></li>
         <li>Personal Portfolio Site : Built with GatsbyJS, React and Reactstrap</li>
-        <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS HPD iFrame Web Scraper Component For Traffic Accident App</a></li>
+        <li><a href="https://github.com/Dmeowmixer/HPDScraper/blob/master/app/app.js">NodeJS Cheer.io HPD iFrame Web Scraper Component For Semi Real Time Traffic Accident Reporting App</a></li>
         <li><a href="https://codepen.io/dmeowmixer/pen/BPXjVj">Simple HTML/CSS Questionaire form</a></li>
       </ul>
       <h2 className="justifyCenter">Certifications</h2>

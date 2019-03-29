@@ -14,7 +14,7 @@ export default () => (
        <Row>
           <Col>
             <Card className="projectCard">
-              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553897781/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
+              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
               <CardBody>
                 <CardTitle>Waimea Valley Website</CardTitle>
                 <CardText>

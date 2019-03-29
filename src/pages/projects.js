@@ -14,6 +14,24 @@ export default () => (
        <Row>
           <Col>
             <Card className="projectCard">
+              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553897781/waimeavalleycropped.png" alt="facialRecognition" /> </a>
+              <CardBody>
+                <CardTitle>Waimea Valley Website</CardTitle>
+                <CardText>
+                  <ul>
+                    <li>Airship CMS</li>
+                    <li>IG/Calendar Widgets</li>
+                    <li>Managed development/Client interactions/Developed alongside my team</li>
+                  </ul>
+                </CardText>
+                <CardLink href="https://waimeavalley.net/">Live</CardLink>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+       <Row>
+          <Col>
+            <Card className="projectCard">
               <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
               <CardBody>
                 <CardTitle>Facial Image Recgonition</CardTitle>

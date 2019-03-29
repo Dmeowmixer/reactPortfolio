@@ -7,7 +7,7 @@ class TypedJS extends Component {
     return (<Typed
       loop= {true}
       typedRef={(typed) => { this.typed = typed; }}
-      strings={['Greetings','I am Ranson' ,'I am a fullstack JS Dev', 'I am currently looking for opportunities!']} 
+      strings={['Greetings','I am Ranson' ,'I am a fullstack JS Dev', 'I am currently seeking new opportunities!']} 
       typeSpeed={70}/>
     );
   }

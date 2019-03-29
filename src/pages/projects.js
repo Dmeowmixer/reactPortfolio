@@ -84,17 +84,14 @@ export default () => (
       <ul>
         <li><a href="https://www.freecodecamp.org/certification/ransonikuo/responsive-web-design">FreeCodeCamp Responsive Web Design</a></li>
         <li><a href="https://www.freecodecamp.org/certification/ransonikuo/javascript-algorithms-and-data-structures">FreeCodeCamp Javascript Algorithms and Data Structures</a></li>
-        <li><a href="https://www.udemy.com/understand-javascript/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email">Javascript The Weird Parts Completion Udemy</a></li>
-        <li><a href="https://www.udemy.com/certificate/UC-93UTQ7WQ/">Complete Web Developer 2018 Completion Udemy</a></li>
-        <li>DevLeague Developer Fullstack Javascript Bootcamp Certificate of completion 2015</li>
+        <li>DevLeague Fullstack Javascript Bootcamp Certificate of completion 2015</li>
       </ul>
       <h3 className="justifyCenter">Ongoing projects</h3>
       <ul>
         <li><p>Social Media site built in Angular with FirestoreDB full oAuth integration. Hosted on Firebase</p></li>
-        <li><p>Indie GameMaker Language (Javascriptesque) multiplayer game</p></li>
+        <li><p>Indie GameMaker Language (Javascriptesque)game</p></li>
         <li><a href="https://github.com/Dmeowmixer/SekainoShigoDakimakura">SideScrolling Javascript OOP RPG</a></li>
-        <li><p>WPA/WPA2 Cracking with airmon-ng</p></li>
-        <li><p>NCAP WiFi Packet Sniffing</p></li>
+        <li><p>Unity VR Martial arts project</p></li>
       </ul>
       <h2 className="justifyCenter"><a href={pdf} target="_blank">My Resume</a></h2>
     </div>

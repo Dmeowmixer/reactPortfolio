@@ -12,9 +12,11 @@ export default () => (
     <Container>
       <CardGroup>
        <Row>
-          <Col>
+          <Col sm={{ size: 12}} md={{ size: 4 }}>
+            <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
+          </Col>
+          <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
-              <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
               <CardBody>
                 <CardTitle>Waimea Valley Website</CardTitle>
                 <CardText>
@@ -31,9 +33,11 @@ export default () => (
         </Row>
 
         <Row>
-          <Col>
+          <Col sm={{ size: 12}} md={{ size: 4 }}>
+            <a href="https://www.crosscurrenthi.org/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/crossCurrent-min.png" alt="CrossCurrentFellowship" /></a>
+          </Col>
+          <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
-              <a href="https://www.crosscurrenthi.org/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/crossCurrent-min.png" alt="CrossCurrentFellowship" /></a>
               <CardBody>
                 <CardTitle>CrossCurrentFellowship Hawaii</CardTitle>
                 <CardText>
@@ -52,9 +56,11 @@ export default () => (
         </Row>
 
        <Row>
-          <Col>
+          <Col sm={{ size: 12}} md={{ size: 4 }}>
+            <a href="https://dmeowmixer.github.io/voiceTrainer"> <CardImg  href="https://dmeowmixer.github.io/voiceTrainer" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553898422/voicetrainer.png" alt="voiceTrainerapp" /> </a>
+          </Col>
+          <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
-              <a href="https://dmeowmixer.github.io/voiceTrainer"> <CardImg  href="https://dmeowmixer.github.io/voiceTrainer" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553898422/voicetrainer.png" alt="voiceTrainerapp" /> </a>
               <CardBody>
                 <CardTitle>Facial Image Recgonition</CardTitle>
                 <CardText>
@@ -70,9 +76,11 @@ export default () => (
         </Row>
 
        <Row>
-          <Col>
+         <Col sm={{ size: 12}} md={{ size: 4 }}>
+            <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
+         </Col>
+          <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
-              <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
               <CardBody>
                 <CardTitle>Facial Image Recgonition</CardTitle>
                 <CardText>
@@ -93,9 +101,11 @@ export default () => (
 
 
         <Row>
-          <Col>
+          <Col sm={{ size: 12}} md={{ size: 4 }}>
+            <a href="https://dmeowmixer.github.io/simpleReact/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/simpleReact-min.png" alt="reactApp" /></a>
+          </Col>
+          <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
-              <a href="https://dmeowmixer.github.io/simpleReact/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/simpleReact-min.png" alt="reactApp" /></a>
               <CardBody>
                 <CardTitle>React/Redux Async API call App</CardTitle>
                 <CardText><ul>

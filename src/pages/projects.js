@@ -22,6 +22,7 @@ export default () => (
                 <CardText>
                   <ul>
                     <li>Airship CMS</li>
+                    <li>Foundation</li>
                     <li>IG/Calendar Widgets</li>
                     <li>Managed development/Client interactions/Developed alongside my team</li>
                   </ul>
@@ -46,7 +47,6 @@ export default () => (
                     <li>JAMstack</li>
                     <li>MD Bootstrap 4</li>
                     <li>Hosted on Netlify</li>
-                    <li>Built with Widgets and Apis</li>
                   </ul>
                 </CardText>
                 <CardLink href="https://www.crosscurrenthi.org/">Website</CardLink>
@@ -62,10 +62,12 @@ export default () => (
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
               <CardBody>
-                <CardTitle>Facial Image Recgonition</CardTitle>
+                <CardTitle>Voice Trainer 2.0</CardTitle>
                 <CardText>
                   <ul>
-                    <li>Built with VanillaJS and D3.js for visualizations</li>
+                    <li>VanillaJS & D3.js for visualizations</li>
+                    <li>Bower Modules</li>
+                    <li>CSS</li>
                     <li>Hosted on Github Pages</li>
                   </ul>
                 </CardText>
@@ -85,12 +87,10 @@ export default () => (
                 <CardTitle>Facial Image Recgonition</CardTitle>
                 <CardText>
                   <ul>
-                    <li>Clarifai API Integration</li>
-                    <li>NodeJS Server Hosted on Heroku</li>
-                    <li>Express API</li>
-                    <li>PostgreSQL Hosted on Heroku</li>
                     <li>React frontend with state management</li>
-                    <li>Full user Authentication and registration</li>
+                    <li>Clarifai API for facial recognition component</li>
+                    <li>Express API server built on NodeJS (Hosted on Heroku)</li>
+                    <li>Full user registration/authentication powered by a PostreSQL server on Heroku</li>
                   </ul>
                 </CardText>
                 <CardLink href="https://dmeowsmartbrain.herokuapp.com/">Project Hosted on Heroku</CardLink>

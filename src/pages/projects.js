@@ -11,9 +11,9 @@ export default () => (
     <h1 className="justifyCenter">Projects</h1>
     <Container>
       <CardGroup>
-       <Row>
+       <Row className="cardRow">
           <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://waimeavalley.net/"> <CardImg  href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
+            <a href="https://waimeavalley.net/"> <CardImg  className="cardImage" href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
           </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
@@ -32,9 +32,9 @@ export default () => (
           </Col>
         </Row>
 
-        <Row>
+        <Row className="cardRow">
           <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://www.crosscurrenthi.org/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/crossCurrent-min.png" alt="CrossCurrentFellowship" /></a>
+            <a href="https://www.crosscurrenthi.org/"><CardImg className="cardImage" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/crossCurrent-min.png" alt="CrossCurrentFellowship" /></a>
           </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
@@ -55,9 +55,9 @@ export default () => (
           </Col>
         </Row>
 
-       <Row>
+       <Row className="cardRow">
           <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://dmeowmixer.github.io/voiceTrainer"> <CardImg  href="https://dmeowmixer.github.io/voiceTrainer" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553898422/voicetrainer.png" alt="voiceTrainerapp" /> </a>
+            <a href="https://dmeowmixer.github.io/voiceTrainer"> <CardImg  className="cardImage" href="https://dmeowmixer.github.io/voiceTrainer" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553898422/voicetrainer.png" alt="voiceTrainerapp" /> </a>
           </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
@@ -75,9 +75,9 @@ export default () => (
           </Col>
         </Row>
 
-       <Row>
+       <Row className="cardRow">
          <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg  href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
+            <a href="https://dmeowsmartbrain.herokuapp.com/"> <CardImg className="cardImage" href="https://dmeowsmartbrain.herokuapp.com/" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768252/facialRecognition-min.png" alt="facialRecognition" /> </a>
          </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">
@@ -100,9 +100,9 @@ export default () => (
         </Row>
 
 
-        <Row>
+        <Row className="cardRow">
           <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://dmeowmixer.github.io/simpleReact/"><CardImg top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/simpleReact-min.png" alt="reactApp" /></a>
+            <a href="https://dmeowmixer.github.io/simpleReact/"><CardImg className="cardImage" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1539768039/simpleReact-min.png" alt="reactApp" /></a>
           </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">

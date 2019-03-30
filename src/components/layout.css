@@ -672,3 +672,11 @@ h1{
   font-size: 10em;
   font-weight: 2px;
 }
+.cardRow{
+  max-height: 30%;
+}
+.cardImage{
+  height: 290px;
+  width: 100%;
+  object-fit: cover;
+}

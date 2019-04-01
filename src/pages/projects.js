@@ -13,7 +13,7 @@ export default () => (
       <CardGroup>
        <Row className="cardRow">
           <Col sm={{ size: 12}} md={{ size: 4 }}>
-            <a href="https://waimeavalley.net/"> <CardImg  className="cardImage" href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1553899100/waimeavalleycropped.png" alt="waimeaValleysite" /> </a>
+            <a href="https://waimeavalley.net/"> <CardImg  className="cardImage" href="https://waimeavalley.net" top width="100%" src="https://res.cloudinary.com/drgess24j/image/upload/v1554110738/waimeavalleycropped-min.png" alt="waimeaValleysite" /> </a>
           </Col>
           <Col sm={{ size: 12}} md={{ size: 8}}>
             <Card className="projectCard">

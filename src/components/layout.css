@@ -680,3 +680,6 @@ h1{
   width: 100%;
   object-fit: cover;
 }
+#socialIcons{
+  max-height: 35px;
+}

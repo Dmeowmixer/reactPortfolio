@@ -36,6 +36,13 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
+               <div>
+                <NavLink href="https://github.com/dmeowmixer/">
+                  <a href="https://github.com/dmeowmixer"><img id="socialIcons" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/></a>
+                </NavLink>
+               </div>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/projects/">Projects and Certifications</NavLink>
               </NavItem>
               <NavItem>
@@ -51,6 +58,3 @@ export default class Example extends React.Component {
     );
   }
 }
-              // <NavItem>
-              //   <NavLink href="/majin/">My Cat Majin!</NavLink>
-              // </NavItem>

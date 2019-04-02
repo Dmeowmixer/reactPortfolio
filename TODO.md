@@ -1,3 +1,4 @@
+##Download/include jQuery image !
 ##Properly size navbar
 ##Proper padding for Home in navbar
 ##Padding between project cards and next section
